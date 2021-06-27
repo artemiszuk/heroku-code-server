@@ -51,19 +51,19 @@ sudo apt install rclone
 
 ### Installing
 
-to generate rclone config use following
+To generate rclone config use following
 
 ```bash
 rclone config
 ```
 
-after adding at least 1 working to rclone enter following to terminal to generate BASE_CONF value 
+After adding your desired config to rclone - Enter the following in terminal to generate BASE_CONF value 
 
 ```bash
 curl https://raw.githubusercontent.com/SauravDharwadkar/heroku-code-server/master/rclone_conf.sh | bash 
 ```
 
-copy generated value and put in heroku ENV variables
+Copy this generated value and put in heroku ENV variables
 
 #### Eg
 
